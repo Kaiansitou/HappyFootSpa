@@ -1,0 +1,153 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  background-image: url("https://wallpaperplay.com/walls/full/f/e/8/241653.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* sticky */
+
+#navbar {
+  overflow: hidden;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f3f8ff;
+  text-align: center;
+  padding: 0px 16px;
+  /* text-decoration: none; */
+  margin-top: 40px;
+
+}
+
+.sticky {
+  background-image: url("https://wallpaperplay.com/walls/full/f/e/8/241653.jpg");
+  position: fixed;
+  top: 0;
+  width: 68%;
+  height:1%;
+  z-index: 1;
+}
+
+h1 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  padding-top: 30px;
+}
+
+/* About */
+.about-img {
+  width: 250px;
+  height: 150px;
+  border-radius: 20%;
+  margin-left: 120px;
+  margin-right: 20px;
+  margin-top: 130px;
+}
+
+.about-description {
+  margin-top: 120px;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 2% 10%;
+}
+
+/* make more white space for some sections */
+.white-section1 {
+  background-color: #fff;
+  margin-top: 140px;
+}
+
+.white-section {
+  background-color: #fff;
+  margin-top: 80px;
+}
+
+/* Navigation Bar (Front page) */
+.navbar {
+  padding: 0 1rem 2.5rem;
+}
+
+.navbar-brand {
+  font-size: 4rem;
+  font-family: "Yellowtail";
+}
+
+.nav-item {
+  padding: 0 40px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+#title {
+  color: #11144c;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Photo Slide Section */
+#photo {
+  margin-left: 200px;
+  padding: 60px 0px;
+}
+
+.mySlides {
+  height: 460px;
+  width: 120%;
+  margin: 80px 0px 80px 120px;
+}
+
+/* Services Section */
+.servicesList {
+  background-image: url("http://hbimg.b0.upaiyun.com/43ee0dd3725591dd299fa03e9d3dbf61aaa6c271e0e1-KsaJEe");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 130px;
+  padding-left: 250px;
+  padding-bottom: 190px;
+  padding-top: 100px;
+}
+
+/* location */
+#googleMap {
+  width: 300%;
+  height: 300px;
+  margin-top: 100px;
+  margin-left: 160px;
+}
+
+.info {
+  margin-left: 600px;
+  margin-top: 100px;
+}
+
+/* Footer Section */
+.social-icon {
+  margin: 20px 10px;
+}
+
+.footer {
+  background-image: url("https://wallpaperplay.com/walls/full/f/e/8/241653.jpg");
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
